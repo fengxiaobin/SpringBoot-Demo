@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GitTestController {
 
     @GetMapping("/hello")
-    public String hello() {
-        return "Hello SpringBoot!";
+    public String helloGitHub() {
+        return "Hello GitHub SpringBoot!";
     }
 }
