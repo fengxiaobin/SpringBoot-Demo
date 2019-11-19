@@ -11,4 +11,8 @@ public class HelloController {
     public String hello() {
         return "Hello SpringBoot!";
     }
+
+    /**
+     * 添加测试代码
+     */
 }
