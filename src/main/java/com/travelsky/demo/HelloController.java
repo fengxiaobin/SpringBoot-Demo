@@ -11,18 +11,4 @@ public class HelloController {
     public String hello() {
         return "Hello SpringBoot!";
     }
-
-
-    @GetMapping("/hello")
-    public String helloGit() {
-        return "Hello GitHub SpringBoot!";
-    }
-
-    /**
-     * 添加测试代码
-     *
-     *
-     *
-     *
-     */
 }
