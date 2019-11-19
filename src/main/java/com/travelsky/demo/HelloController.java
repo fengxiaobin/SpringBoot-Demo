@@ -18,6 +18,9 @@ public class HelloController {
         return "Hello GitHub SpringBoot!";
     }
 
+    public static void main(String[] args) {
+        System.out.println("Hello GitHub !");
+    }
     /**
      * 添加测试代码
      *
