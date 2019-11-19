@@ -12,9 +12,4 @@ public class HelloController {
         return "Hello SpringBoot!";
     }
 
-
-    @GetMapping("/hello")
-    public String helloGit() {
-        return "Hello GitHub SpringBoot!";
-    }
 }
