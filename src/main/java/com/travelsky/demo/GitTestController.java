@@ -5,20 +5,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class GitTestController {
 
     @GetMapping("/hello")
     public String hello() {
         return "Hello SpringBoot!";
     }
-
-
-    @GetMapping("/hello")
-    public String helloGit() {
-        return "Hello GitHub SpringBoot!";
-    }
-
-    /**
-     * 添加测试代码
-     */
 }
