@@ -18,9 +18,5 @@ public class HelloController {
         return "Hello GitHub SpringBoot!";
     }
     
-     @GetMapping("/hello1")
-    public String helloGit1() {
-        return "Hello GitHub SpringBoot!";
-    }
 
 }
