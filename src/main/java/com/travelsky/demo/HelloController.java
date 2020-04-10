@@ -17,16 +17,10 @@ public class HelloController {
     public String helloGit() {
         return "Hello GitHub SpringBoot!";
     }
+    
+     @GetMapping("/hello1")
+    public String helloGit1() {
+        return "Hello GitHub SpringBoot!";
+    }
 
-    /**
-     * 添加测试代码
-     *
-     *
-     *
-     *
-     * 测试代码
-     *
-     *
-     * 测试代码
-     */
 }
